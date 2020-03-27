@@ -1,0 +1,14 @@
+server:
+  port: 32202
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    username: postgres
+    password: root
+    url: jdbc:postgresql://localhost:5432/issue-db
+  jpa:
+    database: POSTGRESQL
+    generate-ddl: true
+    show-sql: true
+  application:
+    name: issue-service
